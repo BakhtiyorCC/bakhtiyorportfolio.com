@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bakhtiyor | Portfolio</title>
+  <div id="loader">
+  <div class="loader-text">ACCESSING SYSTEM...</div>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+</div>
+
+  <!-- Asosiy CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="7896fa48-df81-4a91-8afd-5ba8a4702865.png">
+  
+  <!-- Font Awesome ikonalar uchun -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header: Sayt sarlavhasi va navigatsiya -->
+  <header>
+    <div class="name">
+      <h2>Bakhtiyor</h2>
+    </div>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="#" style="color: rgb(105, 105, 243);">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Asosiy bo'lim: Rasm va matn qora quti ichida yonma-yon -->
+  <section class="main-section">
+    <div class="box">
+      <div class="image">
+        <img src="image.avif" alt="Bakhtiyor's Photo" />
+      </div>
+      <div class="text">
+        <h2> This is my Education</h2>
+        <h3>My <span class="job">Education</span></h3>
+        <p>
+          I study at #1 specialized school in Uzbekistan. <br>
+          I am learning English, Russian, and programming languages. <br>
+          I like learning new things every day. <br>
+          My dream is to become a Full-stack Software Engineer. <br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ijtimoiy tarmoqlar ikonkalari -->
+  <div class="social-icons">
+    <div class="social-icons_item">
+      <a href="https://linkedin.com/in/#" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div class="social-icons_item">
+      <a href="https://github.com/#" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="social-icons_item">
+      <a href="https://t.me/#" target="_blank" aria-label="Telegram">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </div>
+    <div class="social-icons_item">
+      <a href="https://instagram.com/#" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+  <script>
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    }, 1500); // 1.5 soniya
+  });
+</script>
+</body>
+</html>
